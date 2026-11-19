@@ -32,7 +32,7 @@ public class Lakshman {
 
 <p align="center">
   <a href="https://lakshman-codes.github.io/#about">
-    <img src="assets/away-from-keyboard.svg" width="100%" alt="Away from the keyboard — Clean UI & sidequests, Startups & building, Science & rabbit holes, Badminton & volleyball" />
+    <img src="assets/away-from-keyboard.svg" width="100%" alt="Away from the keyboard — animated carousel of quick thoughts from lakshman-codes.github.io" />
   </a>
 </p>
 
@@ -109,28 +109,121 @@ Resume-alignment platform that tailors a master resume to each job posting.<br>
 
 ## Experience
 
-| | Role | Organization | Dates |
-|:--|:--|:--|:--|
-| **Now** | Autonomy Engineer, Perception and Navigation | [**WATonomous**](https://www.watonomous.ca) | Oct 2026 – Present |
-| **Past** | Software Engineering Intern | [**Ally Solutions**](https://www.allysolutions.ai) | Jun 2026 – Sep 2026 |
-| | Electrical and Software Co-lead | **SLSS EV Car Team** | Dec 2025 – May 2026 |
-| | Backend Developer | [**ServiceDeck**](https://servicedeck.io) | Jun 2025 – Sep 2025 |
-| | Hackathon Competitor, **1st Place** | **High School Hackathon** | May 2025 |
-| | Full Stack and IT Intern | **TerryFox Medical Centre** | Jan 2025 – Mar 2025 |
-| | Advanced Math Tutor | **Kumon** | Dec 2024 – Aug 2025 |
-| | Swim Instructor and Platform Coordinator | **BSS** | 2025 |
+<p align="center">
+  <a href="https://lakshman-codes.github.io/#experience">
+    <img src="assets/experience-showcase.svg" width="100%" alt="Work & Engineering Archive — WATonomous, Ally Solutions, SLSS EV Car Team, ServiceDeck, Hackathon 1st Place, TerryFox Medical Centre, Kumon, BSS" />
+  </a>
+</p>
 
-<details>
-<summary><b>Highlights from the work</b></summary>
+<div align="center">
+  <sub>
+    <b>Organizations:</b>&nbsp;
+    <a href="https://www.watonomous.ca">WATonomous</a> ·
+    <a href="https://www.allysolutions.ai">Ally Solutions</a> ·
+    SLSS EV Car Team ·
+    <a href="https://servicedeck.io">ServiceDeck</a> ·
+    TerryFox Medical Centre ·
+    Kumon ·
+    BSS
+  </sub>
+</div>
+
 <br>
 
-| Where | What I built |
-|:--|:--|
-| [**WATonomous**](https://www.watonomous.ca) | C++ and ROS 2 navigation stack with 2D costmaps, an A* planner and Pure Pursuit path tracking, tested in Dockerized Gazebo and debugged in Foxglove Studio. |
-| [**Ally Solutions**](https://www.allysolutions.ai) | Python dialing agents and a rule engine that cut manual coordination by over 80% for 2 clinics and reached 90%+ eligibility accuracy on test data. REST APIs and PostgreSQL schemas shared across 3 internal services. |
-| **SLSS EV Car Team** | Raspberry Pi telemetry dashboard with C++ sensor drivers, plus OpenCV cone and flag detection for a competition electric vehicle. |
-| [**ServiceDeck**](https://servicedeck.io) | Pandas and LLM pipeline that cleaned 20k+ customer records, and a Twilio-based conversational agent deployed on Firebase Cloud Functions. |
-| **TerryFox Medical Centre** | AI patient triage web app, EMR rollout across the clinic and a Raspberry Pi device that automated reception workflows. |
+<details>
+<summary><b>View full role breakdown &amp; technical highlights</b></summary>
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="assets/logos/watonomous.png" width="38" height="38" align="left" alt="WATonomous" />
+
+**[WATonomous](https://www.watonomous.ca)** · `NOW`<br>
+<sub><b>Autonomy Engineer, Perception &amp; Navigation</b> · Oct 2026 – Present</sub>
+
+C++ and ROS 2 navigation stack with 2D costmaps, an A* planner, and Pure Pursuit path tracking tested in Dockerized Gazebo simulations and debugged in Foxglove Studio.
+
+</td>
+<td width="50%" valign="top">
+
+<img src="assets/logos/ally.png" width="38" height="38" align="left" alt="Ally Solutions" />
+
+**[Ally Solutions](https://www.allysolutions.ai)**<br>
+<sub><b>Software Engineering Intern</b> · Jun 2026 – Sep 2026</sub>
+
+Built Python dialing agents and a rule engine that cut manual coordination by 80%+ for 2 clinics (90%+ accuracy), with REST APIs, PostgreSQL schemas across 3 services, and Next.js workflow dashboards.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="assets/logos/slss.jpeg" width="38" height="38" align="left" alt="SLSS EV Car Team" />
+
+**SLSS EV Car Team**<br>
+<sub><b>Electrical &amp; Software Co-lead</b> · Dec 2025 – May 2026</sub>
+
+Co-led embedded firmware and a Raspberry Pi telemetry dashboard with optimized C++ sensor drivers and OpenCV real-time cone and flag detection for the Waterloo EV Race.
+
+</td>
+<td width="50%" valign="top">
+
+<img src="assets/logos/servicedeck.png" width="38" height="38" align="left" alt="ServiceDeck" />
+
+**[ServiceDeck](https://servicedeck.io)**<br>
+<sub><b>Backend Developer</b> · Jun 2025 – Sep 2025</sub>
+
+Built a Pandas + LLM extraction pipeline cleaning 20k+ customer Excel records, a Twilio WhatsApp/SMS lead agent on Firebase Cloud Functions, and a Python/Flask email intake classifier with Supabase.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="assets/logos/hackathon.svg" width="38" height="38" align="left" alt="Hackathon 1st Place" />
+
+**High School Coding Hackathon** · `1ST PLACE`<br>
+<sub><b>Hackathon Competitor</b> · May 2025</sub>
+
+Won 1st place designing and shipping a complete Java desktop environmental strategy game from scratch under a tight competition clock.
+
+</td>
+<td width="50%" valign="top">
+
+<img src="assets/logos/terryfox.jpeg" width="38" height="38" align="left" alt="TerryFox Medical Centre" />
+
+**TerryFox Medical Centre**<br>
+<sub><b>Full Stack &amp; IT Intern</b> · Jan 2025 – Mar 2025</sub>
+
+Built a Gemini AI patient symptom triage web app with Twilio SMS reminders, deployed OSCAR EMR across workstations for 6 physicians, and built a Raspberry Pi HID workflow automation device.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="assets/logos/kumon.png" width="38" height="38" align="left" alt="Kumon" />
+
+**Kumon**<br>
+<sub><b>Advanced Math Tutor</b> · Dec 2024 – Aug 2025</sub>
+
+Guided students through advanced mathematics and calculus with step-by-step instruction and individualized progress tracking.
+
+</td>
+<td width="50%" valign="top">
+
+<img src="assets/logos/bss.png" width="38" height="38" align="left" alt="BSS" />
+
+**BSS**<br>
+<sub><b>Swim Instructor &amp; Platform Coordinator</b> · 2025</sub>
+
+Managed the student records database and scheduling platform alongside delivering structured instruction across skill levels.
+
+</td>
+</tr>
+</table>
 
 </details>
 
