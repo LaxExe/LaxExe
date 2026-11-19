@@ -97,14 +97,14 @@ Resume-alignment platform that tailors a master resume to each job posting.<br>
 
 | | Role | Organization | Dates |
 |:--|:--|:--|:--|
-| **Now** | Autonomy Engineer, Perception and Navigation | **WATonomous** | Oct 2026 – Present |
+| **Now** | Autonomy Engineer, Perception and Navigation | [**WATonomous**](https://www.watonomous.ca) | Oct 2026 – Present |
 | | Swim Instructor and Platform Coordinator | **BSS** | 2025 – Present |
-| **Past** | Software Engineering Intern | **Ally Solutions** | Jun 2026 – Sep 2026 |
+| **Past** | Software Engineering Intern | [**Ally Solutions**](https://www.allysolutions.ai) | Jun 2026 – Sep 2026 |
 | | Electrical and Software Co-lead | **SLSS EV Car Team** | Dec 2025 – May 2026 |
-| | Backend Developer | **ServiceDeck** | Jun 2025 – Sep 2025 |
+| | Backend Developer | [**ServiceDeck**](https://servicedeck.io) | Jun 2025 – Sep 2025 |
 | | Hackathon Competitor, **1st Place** | **High School Hackathon** | May 2025 |
 | | Full Stack and IT Intern | **TerryFox Medical Centre** | Jan 2025 – Mar 2025 |
-| | Advanced Math Tutor | **Kumon** | Dec 2024 – Aug 2025 |
+| | Advanced Math Tutor | [**Kumon**](https://www.kumon.com/canada) | Dec 2024 – Aug 2025 |
 
 <details>
 <summary><b>Highlights from the work</b></summary>
@@ -112,10 +112,10 @@ Resume-alignment platform that tailors a master resume to each job posting.<br>
 
 | Where | What I built |
 |:--|:--|
-| **WATonomous** | C++ and ROS 2 navigation stack with 2D costmaps, an A* planner and Pure Pursuit path tracking, tested in Dockerized Gazebo and debugged in Foxglove Studio. |
-| **Ally Solutions** | Python dialing agents and a rule engine that cut manual coordination by over 80% for 2 clinics and reached 90%+ eligibility accuracy on test data. REST APIs and PostgreSQL schemas shared across 3 internal services. |
+| [**WATonomous**](https://www.watonomous.ca) | C++ and ROS 2 navigation stack with 2D costmaps, an A* planner and Pure Pursuit path tracking, tested in Dockerized Gazebo and debugged in Foxglove Studio. |
+| [**Ally Solutions**](https://www.allysolutions.ai) | Python dialing agents and a rule engine that cut manual coordination by over 80% for 2 clinics and reached 90%+ eligibility accuracy on test data. REST APIs and PostgreSQL schemas shared across 3 internal services. |
 | **SLSS EV Car Team** | Raspberry Pi telemetry dashboard with C++ sensor drivers, plus OpenCV cone and flag detection for a competition electric vehicle. |
-| **ServiceDeck** | Pandas and LLM pipeline that cleaned 20k+ customer records, and a Twilio-based conversational agent deployed on Firebase Cloud Functions. |
+| [**ServiceDeck**](https://servicedeck.io) | Pandas and LLM pipeline that cleaned 20k+ customer records, and a Twilio-based conversational agent deployed on Firebase Cloud Functions. |
 | **TerryFox Medical Centre** | AI patient triage web app, EMR rollout across the clinic and a Raspberry Pi device that automated reception workflows. |
 
 </details>
