@@ -98,13 +98,13 @@ Resume-alignment platform that tailors a master resume to each job posting.<br>
 | | Role | Organization | Dates |
 |:--|:--|:--|:--|
 | **Now** | Autonomy Engineer, Perception and Navigation | [**WATonomous**](https://www.watonomous.ca) | Oct 2026 – Present |
-| | Swim Instructor and Platform Coordinator | **BSS** | 2025 – Present |
 | **Past** | Software Engineering Intern | [**Ally Solutions**](https://www.allysolutions.ai) | Jun 2026 – Sep 2026 |
 | | Electrical and Software Co-lead | **SLSS EV Car Team** | Dec 2025 – May 2026 |
 | | Backend Developer | [**ServiceDeck**](https://servicedeck.io) | Jun 2025 – Sep 2025 |
 | | Hackathon Competitor, **1st Place** | **High School Hackathon** | May 2025 |
 | | Full Stack and IT Intern | **TerryFox Medical Centre** | Jan 2025 – Mar 2025 |
-| | Advanced Math Tutor | [**Kumon**](https://www.kumon.com/canada) | Dec 2024 – Aug 2025 |
+| | Advanced Math Tutor | **Kumon** | Dec 2024 – Aug 2025 |
+| | Swim Instructor and Platform Coordinator | **BSS** | 2025 |
 
 <details>
 <summary><b>Highlights from the work</b></summary>
