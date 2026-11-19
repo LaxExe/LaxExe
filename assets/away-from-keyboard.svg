@@ -21,21 +21,21 @@
       16.66%, 100% { fill: #d0d7de; }
     }
 
-    .slide { opacity: 0; animation: fadeSlide 36s infinite; }
+    .slide { opacity: 0; animation: fadeSlide 15s infinite; }
     .s1 { animation-delay: 0s; opacity: 1; }
-    .s2 { animation-delay: 6s; }
-    .s3 { animation-delay: 12s; }
-    .s4 { animation-delay: 18s; }
-    .s5 { animation-delay: 24s; }
-    .s6 { animation-delay: 30s; }
+    .s2 { animation-delay: 2.5s; }
+    .s3 { animation-delay: 5s; }
+    .s4 { animation-delay: 7.5s; }
+    .s5 { animation-delay: 10s; }
+    .s6 { animation-delay: 12.5s; }
 
-    .dot { fill: #d0d7de; animation: barDot 36s infinite; }
+    .dot { fill: #d0d7de; animation: barDot 15s infinite; }
     .d1 { animation-delay: 0s; fill: #1f2328; }
-    .d2 { animation-delay: 6s; }
-    .d3 { animation-delay: 12s; }
-    .d4 { animation-delay: 18s; }
-    .d5 { animation-delay: 24s; }
-    .d6 { animation-delay: 30s; }
+    .d2 { animation-delay: 2.5s; }
+    .d3 { animation-delay: 5s; }
+    .d4 { animation-delay: 7.5s; }
+    .d5 { animation-delay: 10s; }
+    .d6 { animation-delay: 12.5s; }
   </style>
 
   <!-- Clean white GitHub-compatible canvas -->

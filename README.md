@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hey%2C%20I'm%20Lakshman&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineering%20%40%20Waterloo&descAlignY=58&descSize=20" alt="Hey, I'm Lakshman" />
 
 <a href="https://lakshman-codes.github.io">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=%3E+engineering+at+UWaterloo.;%3E+professional+side+quest+starter.;%3E+expert+google+searcher.;%3E+overthinking+since+2007.;%3E+fascinated+by+systems+that+scale;%3E+software+engineer+%28aspiring+._.+%29." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=1600&pause=450&color=36BCF7&center=true&vCenter=true&width=700&lines=%3E+engineering+at+UWaterloo.;%3E+professional+side+quest+starter.;%3E+expert+google+searcher.;%3E+overthinking+since+2007.;%3E+fascinated+by+systems+that+scale;%3E+software+engineer+%28aspiring+._.+%29." alt="Typing SVG" />
 </a>
 
 [![Website](https://img.shields.io/badge/Website-lakshman--codes.github.io-36BCF7?style=for-the-badge&logo=githubpages&logoColor=white)](https://lakshman-codes.github.io)
