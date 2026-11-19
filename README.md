@@ -41,7 +41,7 @@ public class Lakshman {
 | **Ledger Service** | Double-entry ledger API with row locking and idempotency. Java 21, Spring Boot 3.3, PostgreSQL 16. | [Repo](https://github.com/LaxExe/ledger-service) · [Site](https://laxexe.github.io/ledger-service/) |
 | **Highlights** | AI-powered social platform that scores your day, tags your highlights and tracks streaks. | [Repo](https://github.com/LaxExe/HighlightsApp) |
 | **SimpleDo** | Minimalist task, habit and calendar manager with realtime sync and an agent API. | [Repo](https://github.com/LaxExe/SimpleDo) · [Live app](https://laxexe.github.io/SimpleDo/) |
-| **HireMe** | My job-hunt command center. | [Repo](https://github.com/LaxExe/HireMe) · [Live app](https://hireme-henna.vercel.app/) |
+| **HireMe** | Recruitment and resume-alignment platform that tailors a master resume to each job posting. | [Repo](https://github.com/LaxExe/HireMe) · [Live app](https://hireme-henna.vercel.app/) |
 | **Voice Browser Control** | Chrome extension for hands-free browsing, routing each command to the cheapest reliable action. *(private)* | |
 
 ---
