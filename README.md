@@ -40,8 +40,6 @@ public class Lakshman {
 
 ## Featured Projects
 
-Click any preview to open the live project.
-
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -49,9 +47,9 @@ Click any preview to open the live project.
 <a href="https://laxexe.github.io/Inline-MacOS-Win32Build/"><img src="assets/inline.png" alt="Inline preview" /></a>
 
 **Inline**<br>
-System-wide autocorrect and predictive ghost text. 100% on-device, zero telemetry.<br>
+Autocorrect and word prediction that works across every app on your computer. Runs locally on your machine so nothing you type is ever sent anywhere.<br>
 <sub>C++20 · macOS · Rust</sub><br>
-[Repo](https://github.com/LaxExe/Inline-MacOS-Win32Build) · [Try the live demo](https://laxexe.github.io/Inline-MacOS-Win32Build/)
+[Repo](https://github.com/LaxExe/Inline-MacOS-Win32Build) · [Live demo](https://laxexe.github.io/Inline-MacOS-Win32Build/)
 
 </td>
 <td width="50%" valign="top">
@@ -59,9 +57,9 @@ System-wide autocorrect and predictive ghost text. 100% on-device, zero telemetr
 <a href="https://laxexe.github.io/ledger-service/"><img src="assets/ledger.png" alt="Ledger Service preview" /></a>
 
 **Ledger Service**<br>
-Double-entry ledger API with row locking and idempotency that survives concurrent and retried requests.<br>
+A backend API that moves money between accounts without losing track of balances, even if two transfers happen at the exact same time or a request gets sent twice.<br>
 <sub>Java 21 · Spring Boot 3.3 · PostgreSQL 16</sub><br>
-[Repo](https://github.com/LaxExe/ledger-service) · [Interactive walkthrough](https://laxexe.github.io/ledger-service/)
+[Repo](https://github.com/LaxExe/ledger-service) · [Walkthrough](https://laxexe.github.io/ledger-service/)
 
 </td>
 </tr>
@@ -71,7 +69,7 @@ Double-entry ledger API with row locking and idempotency that survives concurren
 <a href="https://highlights-kappa.vercel.app/home"><img src="assets/highlights.png" alt="Highlights preview" /></a>
 
 **Highlights**<br>
-AI-powered social app that scores your day, tags your highlights and tracks streaks.<br>
+A daily journal app where you write down the best parts of your day. It tags your entries, checks off your daily habits, and lets you share updates with friends.<br>
 <sub>Next.js · Prisma · Supabase · Gemini</sub><br>
 [Repo](https://github.com/LaxExe/HighlightsApp) · [Live app](https://highlights-kappa.vercel.app/home)
 
@@ -81,7 +79,7 @@ AI-powered social app that scores your day, tags your highlights and tracks stre
 <a href="https://hireme-henna.vercel.app/"><img src="assets/hireme.png" alt="HireMe preview" /></a>
 
 **HireMe**<br>
-Resume-alignment platform that tailors a master resume to each job posting.<br>
+A tool that keeps one master copy of your resume and tweaks it to fit different job postings on a clean one-page PDF.<br>
 <sub>Next.js · Firebase · LaTeX</sub><br>
 [Repo](https://github.com/LaxExe/HireMe) · [Live app](https://hireme-henna.vercel.app/)
 
@@ -91,11 +89,11 @@ Resume-alignment platform that tailors a master resume to each job posting.<br>
 
 ### More Projects
 
-| Project | Description | Stack | Links |
+| Project | What it does | Stack | Links |
 |:--|:--|:--|:--|
-| **Voice Browser Control** | Chrome extension for hands-free browsing. An LLM routes each voice command to the cheapest reliable action, with a parallel mode for background tabs. | TypeScript, Flask, Supabase | [Repo](https://github.com/LaxExe/VoiceBasedAgenticBrowserAutomationTool) |
-| **UWExplorer** | Electron and React campus dashboard with D2L calendar sync, course to-dos and quick links. | Electron, React, Vite | [Repo](https://github.com/LaxExe/UWExplorer) |
-| **SimpleDo** | Minimalist task, habit and calendar manager with realtime sync and an agent API. | React, Firebase, PWA | [Repo](https://github.com/LaxExe/SimpleDo) · [Live app](https://laxexe.github.io/SimpleDo/) |
+| **Voice Browser Control** | A Chrome extension that lets you control your browser with your voice — open tabs, click buttons, scroll, and run tasks in the background while you keep working. | TypeScript, Flask, Supabase | [Repo](https://github.com/LaxExe/VoiceBasedAgenticBrowserAutomationTool) |
+| **UWExplorer** | A desktop app for Waterloo students that pulls in your D2L calendar so you can see all your assignments, due dates, and campus links in one place. | Electron, React, Vite | [Repo](https://github.com/LaxExe/UWExplorer) |
+| **SimpleDo** | A simple to-do list, habit tracker, and calendar that syncs across your phone and laptop. | React, Firebase, PWA | [Repo](https://github.com/LaxExe/SimpleDo) · [Live app](https://laxexe.github.io/SimpleDo/) |
 
 ---
 
