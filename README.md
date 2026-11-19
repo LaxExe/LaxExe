@@ -30,6 +30,12 @@ public class Lakshman {
 }
 ```
 
+<p align="center">
+  <a href="https://lakshman-codes.github.io/#about">
+    <img src="assets/away-from-keyboard.svg" width="100%" alt="Away from the keyboard — Clean UI & sidequests, Startups & building, Science & rabbit holes, Badminton & volleyball" />
+  </a>
+</p>
+
 ---
 
 ## Featured Projects
@@ -90,6 +96,14 @@ Resume-alignment platform that tailors a master resume to each job posting.<br>
 | **Voice Browser Control** | Chrome extension for hands-free browsing. An LLM routes each voice command to the cheapest reliable action, with a parallel mode for background tabs. | TypeScript, Flask, Supabase | [Repo](https://github.com/LaxExe/VoiceBasedAgenticBrowserAutomationTool) |
 | **UWExplorer** | Electron and React campus dashboard with D2L calendar sync, course to-dos and quick links. | Electron, React, Vite | [Repo](https://github.com/LaxExe/UWExplorer) |
 | **SimpleDo** | Minimalist task, habit and calendar manager with realtime sync and an agent API. | React, Firebase, PWA | [Repo](https://github.com/LaxExe/SimpleDo) · [Live app](https://laxexe.github.io/SimpleDo/) |
+
+<details>
+<summary><b>Preview SimpleDo live landing page</b></summary>
+<br>
+
+<a href="https://laxexe.github.io/SimpleDo/"><img src="assets/simpledo.png" alt="SimpleDo preview" /></a>
+
+</details>
 
 ---
 
@@ -194,11 +208,15 @@ Resume-alignment platform that tailors a master resume to each job posting.<br>
 
 ---
 
+<p align="center">
+  <a href="https://lakshman-codes.github.io/#contact">
+    <img src="assets/lets-talk.svg" width="100%" alt="Let's talk — Website, LinkedIn, GitHub, X / Twitter" />
+  </a>
+</p>
+
 <div align="center">
 
-### Let's build something
-
-[![Website](https://img.shields.io/badge/Visit_my_website-36BCF7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lakshman-codes.github.io)
+[**Website**](https://lakshman-codes.github.io) · [**LinkedIn**](https://linkedin.com/in/lakshmanr08/) · [**GitHub**](https://github.com/LaxExe) · [**X / Twitter**](https://x.com/Lakshman_r08)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="" />
 
