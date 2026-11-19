@@ -1,253 +1,161 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" width="920" height="260">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 306" width="880" height="306">
   <style>
-    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .font-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
-    .kicker { font-size: 11px; font-weight: 600; fill: #767676; letter-spacing: 0.05em; }
-    .header-title { font-size: 18px; font-weight: 700; fill: #141412; }
-    .counter { font-size: 12px; font-weight: 600; fill: #141412; }
-    .slide-title { font-size: 21px; font-weight: 700; fill: #141412; }
-    .slide-body { font-size: 13.5px; fill: #383836; }
-    .pill-text { font-size: 11px; font-weight: 600; fill: #0d7a5f; }
-    .btn-text { font-size: 13px; font-weight: 700; fill: #141412; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "DM Sans", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", "DM Mono", Menlo, Consolas, monospace; }
+    .sec-label { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; letter-spacing: 0.14em; fill: #656d76; }
+    .counter { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; letter-spacing: 0.12em; fill: #656d76; }
+    .ctrl-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 13px; fill: #1f2328; }
+    .card-num { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10.5px; letter-spacing: 0.12em; fill: #656d76; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 600; letter-spacing: -0.025em; fill: #1f2328; }
+    .card-body { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; font-weight: 400; fill: #1f2328; }
+    .link-btn-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10.5px; letter-spacing: 0.08em; fill: #1f2328; }
+    .results-copy { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; letter-spacing: 0.08em; fill: #656d76; }
 
-    @keyframes slideAnim {
-      0%, 11.5% { opacity: 1;  }
-      14.28%, 97.5% { opacity: 0;  }
-      100% { opacity: 1;  }
+    @keyframes fadeSlide {
+      0%, 14.5% { opacity: 1; }
+      16.66%, 98% { opacity: 0; }
+      100% { opacity: 1; }
     }
-    @keyframes dotAnim {
-      0%, 11.5% { fill: #141412; r: 4.5px; }
-      14.28%, 100% { fill: #c8c8c0; r: 3.5px; }
-    }
-    @keyframes progressAnim {
-      0% { width: 0px; }
-      14.28% { width: 832px; }
-      14.29%, 100% { width: 0px; }
+    @keyframes barDot {
+      0%, 14.5% { fill: #1f2328; }
+      16.66%, 100% { fill: #d0d7de; }
     }
 
-    .slide { opacity: 0; animation: slideAnim 35s infinite ease-in-out; }
+    .slide { opacity: 0; animation: fadeSlide 36s infinite; }
     .s1 { animation-delay: 0s; opacity: 1; }
-    .s2 { animation-delay: 5s; }
-    .s3 { animation-delay: 10s; }
-    .s4 { animation-delay: 15s; }
-    .s5 { animation-delay: 20s; }
-    .s6 { animation-delay: 25s; }
-    .s7 { animation-delay: 30s; }
+    .s2 { animation-delay: 6s; }
+    .s3 { animation-delay: 12s; }
+    .s4 { animation-delay: 18s; }
+    .s5 { animation-delay: 24s; }
+    .s6 { animation-delay: 30s; }
 
-    .dot { fill: #c8c8c0; animation: dotAnim 35s infinite; }
-    .d1 { animation-delay: 0s; fill: #141412; }
-    .d2 { animation-delay: 5s; }
-    .d3 { animation-delay: 10s; }
-    .d4 { animation-delay: 15s; }
-    .d5 { animation-delay: 20s; }
-    .d6 { animation-delay: 25s; }
-    .d7 { animation-delay: 30s; }
+    .dot { fill: #d0d7de; animation: barDot 36s infinite; }
+    .d1 { animation-delay: 0s; fill: #1f2328; }
+    .d2 { animation-delay: 6s; }
+    .d3 { animation-delay: 12s; }
+    .d4 { animation-delay: 18s; }
+    .d5 { animation-delay: 24s; }
+    .d6 { animation-delay: 30s; }
   </style>
 
-  <!-- Outer Shell -->
-  <rect x="2" y="2" width="916" height="256" rx="18" fill="#f7f7f4" stroke="#e2e2dc" stroke-width="1.5"/>
+  <!-- Clean white GitHub-compatible canvas -->
+  <rect x="0" y="0" width="880" height="306" fill="#ffffff"/>
 
-  <!-- Top Bar -->
-  <g transform="translate(28, 22)">
-    <circle cx="10" cy="11" r="8" fill="none" stroke="#141412" stroke-width="1.5"/>
-    <ellipse cx="10" cy="11" rx="3.8" ry="8" fill="none" stroke="#141412" stroke-width="1.3"/>
-    <line x1="2" y1="11" x2="18" y2="11" stroke="#141412" stroke-width="1.3"/>
-    <text x="28" y="16" class="font-sans header-title">Away from the keyboard</text>
-    <text x="248" y="15" class="font-mono kicker">// quick thoughts carousel · lakshman-codes.github.io</text>
+  <!-- Top Bar (.about-carousel-top) -->
+  <text x="0" y="16" class="sec-label">// about · blog — more quick thoughts than blog posts</text>
+  <text x="0" y="42" class="counter slide s1">01 / 06</text>
+  <text x="0" y="42" class="counter slide s2">02 / 06</text>
+  <text x="0" y="42" class="counter slide s3">03 / 06</text>
+  <text x="0" y="42" class="counter slide s4">04 / 06</text>
+  <text x="0" y="42" class="counter slide s5">05 / 06</text>
+  <text x="0" y="42" class="counter slide s6">06 / 06</text>
 
-    <!-- Carousel Controls lookalike -->
-    <g transform="translate(796, 0)">
-      <rect x="0" y="0" width="28" height="24" rx="6" fill="#ffffff" stroke="#d8d8d0" stroke-width="1.2"/>
-      <text x="9" y="16" class="font-mono btn-text">&lt;</text>
-      <rect x="36" y="0" width="28" height="24" rx="6" fill="#ffffff" stroke="#d8d8d0" stroke-width="1.2"/>
-      <text x="45" y="16" class="font-mono btn-text">&gt;</text>
-    </g>
+  <!-- Prev / Next controls (.about-control) -->
+  <g transform="translate(774, 14)">
+    <rect x="0" y="0" width="48" height="36" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="18" y="22" class="ctrl-text">&#8592;</text>
+    <rect x="58" y="0" width="48" height="36" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="76" y="22" class="ctrl-text">&#8594;</text>
   </g>
 
-  <!-- Inner Carousel Viewport Card -->
-  <rect x="24" y="58" width="872" height="162" rx="14" fill="#ffffff" stroke="#e4e4de" stroke-width="1.3"/>
+  <!-- Viewport top and bottom rules (.about-viewport) -->
+  <line x1="0" y1="64" x2="880" y2="64" stroke="#1f2328" stroke-width="1"/>
+  <line x1="0" y1="268" x2="880" y2="268" stroke="#1f2328" stroke-width="1"/>
 
-  <!-- SLIDE 1: Amazing and simple UI -->
-  <g class="slide s1" transform="translate(46, 76)">
-    <!-- Left Illustration -->
-    <rect x="0" y="4" width="160" height="118" rx="12" fill="#f5f5f1" stroke="#e2e2dc" stroke-width="1.2"/>
-    <g transform="translate(28, 24)">
-      <rect x="0" y="0" width="104" height="72" rx="8" fill="#ffffff" stroke="#141412" stroke-width="1.5"/>
-      <line x1="0" y1="16" x2="104" y2="16" stroke="#141412" stroke-width="1.3"/>
-      <circle cx="10" cy="8" r="2.3" fill="#e57373"/>
-      <circle cx="18" cy="8" r="2.3" fill="#ffd54f"/>
-      <circle cx="26" cy="8" r="2.3" fill="#81c784"/>
-      <rect x="10" y="25" width="36" height="36" rx="5" fill="#d9ead3" stroke="#141412" stroke-width="1.3"/>
-      <rect x="54" y="25" width="40" height="14" rx="4" fill="#cfe2f3" stroke="#141412" stroke-width="1.3"/>
-      <rect x="54" y="46" width="28" height="15" rx="4" fill="#fce5cd" stroke="#141412" stroke-width="1.3"/>
-    </g>
-    <!-- Right Content -->
-    <text x="190" y="18" class="font-mono kicker">01 / 07 · DESIGN &amp; CRAFT</text>
-    <text x="190" y="44" class="font-sans slide-title">amazing and simple ui</text>
-    <text x="190" y="68" class="font-sans slide-body">I like when something looks simple but clearly isn't by accident — spacing, speed,</text>
-    <text x="190" y="88" class="font-sans slide-body">and how your eyes move across the screen. Nothing loud, just clean and intentional.</text>
-    <g transform="translate(190, 102)">
-      <rect x="0" y="0" width="144" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="12" y="15" class="font-mono pill-text">Visual Complexity</text>
-      <rect x="154" y="0" width="152" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="166" y="15" class="font-mono pill-text">Google UX Research</text>
-      <rect x="316" y="0" width="154" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="328" y="15" class="font-mono pill-text">Interaction of Color</text>
-    </g>
+  <!-- Inner Card (.about-card-inner) -->
+  <rect x="0.5" y="84.5" width="879" height="163" fill="#fcfcfa" stroke="#1f2328" stroke-width="1"/>
+  <!-- Vertical divider between left 180px title column and right body column -->
+  <line x1="214" y1="102" x2="214" y2="230" stroke="#eaeef2" stroke-width="1"/>
+
+  <g class="slide s1">
+    <text x="22" y="116" class="card-num">01</text>
+    <text x="22" y="148" class="card-title">startups and</text>
+<text x="22" y="173" class="card-title">building something</text>
+    <text x="236" y="124" class="card-body">i think a lot about building something of my own one day. not even in a huge</text>
+<text x="236" y="146" class="card-body">way, just something real that people actually use. something that starts small</text>
+<text x="236" y="168" class="card-body">and slowly gets better. i like being around people who are building too.</text>
+    <rect x="236.0" y="198" width="211.2" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="248.0" y="216" class="link-btn-text">make something people want</text>
+<rect x="457.2" y="198" width="81.6" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="469.2" y="216" class="link-btn-text">startups</text>
+<rect x="548.8" y="198" width="117.6" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="560.8" y="216" class="link-btn-text">indie hackers</text>
+  </g>
+  <g class="slide s2">
+    <text x="22" y="116" class="card-num">02</text>
+    <text x="22" y="148" class="card-title">sports i enjoy</text>
+<text x="22" y="173" class="card-title">playing with friends</text>
+    <text x="236" y="124" class="card-body">i really like badminton and volleyball even though i was never that good at</text>
+<text x="236" y="146" class="card-body">either. it's more about just playing with friends and having something fun</text>
+<text x="236" y="168" class="card-body">and fast-paced to do. i still enjoy it a lot even if i'm not the best at it.</text>
+    <rect x="236.0" y="198" width="132.0" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="248.0" y="216" class="link-btn-text">badminton bible</text>
+<rect x="378.0" y="198" width="160.8" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="390.0" y="216" class="link-btn-text">volleyball coaching</text>
+  </g>
+  <g class="slide s3">
+    <text x="22" y="116" class="card-num">03</text>
+    <text x="22" y="148" class="card-title">tech news and</text>
+<text x="22" y="173" class="card-title">updates i keep up with</text>
+    <text x="236" y="124" class="card-body">i don't follow news in a super structured way. mostly just check a few places</text>
+<text x="236" y="146" class="card-body">and see what's happening. product launches, funding, new tools. it's less</text>
+<text x="236" y="168" class="card-body">about knowing everything and more about staying loosely aware.</text>
+    <rect x="236.0" y="198" width="96.0" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="248.0" y="216" class="link-btn-text">techcrunch</text>
+<rect x="342.0" y="198" width="88.8" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="354.0" y="216" class="link-btn-text">the verge</text>
+<rect x="440.8" y="198" width="110.4" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="452.8" y="216" class="link-btn-text">product hunt</text>
+  </g>
+  <g class="slide s4">
+    <text x="22" y="116" class="card-num">04</text>
+    <text x="22" y="148" class="card-title">professional</text>
+<text x="22" y="173" class="card-title">sidequest starter</text>
+    <text x="236" y="124" class="card-body">i tend to start things on the side without making it a big deal. sometimes</text>
+<text x="236" y="146" class="card-body">it's just an idea i want to test. i don't really wait for things to be</text>
+<text x="236" y="168" class="card-body">perfect. i just start and see what happens.</text>
+    <rect x="236.0" y="198" width="182.4" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="248.0" y="216" class="link-btn-text">y combinator mvp guide</text>
+<rect x="428.4" y="198" width="132.0" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="440.4" y="216" class="link-btn-text">build in public</text>
+<rect x="570.4" y="198" width="67.2" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="582.4" y="216" class="link-btn-text">vercel</text>
+  </g>
+  <g class="slide s5">
+    <text x="22" y="116" class="card-num">05</text>
+    <text x="22" y="148" class="card-title">science advances</text>
+<text x="22" y="173" class="card-title">/newsletters</text>
+    <text x="236" y="124" class="card-body">i like reading about science and healthcare progress, even if i don't go</text>
+<text x="236" y="146" class="card-body">super deep into it. mostly through newsletters and short updates. new</text>
+<text x="236" y="168" class="card-body">treatments, biotech stuff, small breakthroughs.</text>
+    <rect x="236.0" y="198" width="132.0" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="248.0" y="216" class="link-btn-text">nature briefing</text>
+<rect x="378.0" y="198" width="88.8" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="390.0" y="216" class="link-btn-text">stat news</text>
+<rect x="476.8" y="198" width="225.6" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="488.8" y="216" class="link-btn-text">mit technology review biomed</text>
+  </g>
+  <g class="slide s6">
+    <text x="22" y="116" class="card-num">06</text>
+    <text x="22" y="148" class="card-title">i like getting lost</text>
+<text x="22" y="173" class="card-title">on reddit ¯\_(ツ)_/¯</text>
+    <text x="236" y="124" class="card-body">i spend more time on reddit than i probably should. but there's a lot you</text>
+<text x="236" y="146" class="card-body">can learn from people just sharing what they've done. real experiences, not</text>
+<text x="236" y="168" class="card-body">polished versions. you'll find stuff you wouldn't really see anywhere else.</text>
+    <rect x="236.0" y="198" width="160.8" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="248.0" y="216" class="link-btn-text">reddit entrepreneur</text>
+<rect x="406.8" y="198" width="103.2" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="418.8" y="216" class="link-btn-text">hacker news</text>
+<rect x="520.0" y="198" width="67.2" height="28" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+      <text x="532.0" y="216" class="link-btn-text">are.na</text>
   </g>
 
-  <!-- SLIDE 2: Startups and building something -->
-  <g class="slide s2" transform="translate(46, 76)">
-    <rect x="0" y="4" width="160" height="118" rx="12" fill="#f5f5f1" stroke="#e2e2dc" stroke-width="1.2"/>
-    <g transform="translate(42, 24)">
-      <polygon points="38,6 68,21 38,36 8,21" fill="#b6d7a8" stroke="#141412" stroke-width="1.5" stroke-linejoin="round"/>
-      <polygon points="8,21 38,36 38,68 8,53" fill="#93c47d" stroke="#141412" stroke-width="1.5" stroke-linejoin="round"/>
-      <polygon points="68,21 38,36 38,68 68,53" fill="#d9ead3" stroke="#141412" stroke-width="1.5" stroke-linejoin="round"/>
-      <path d="M74 6 L77 14 L85 17 L77 20 L74 28 L71 20 L63 17 L71 14 Z" fill="#ffd966" stroke="#141412" stroke-width="1.3"/>
-    </g>
-    <text x="190" y="18" class="font-mono kicker">02 / 07 · STARTUPS &amp; SHIPPING</text>
-    <text x="190" y="44" class="font-sans slide-title">startups and building something</text>
-    <text x="190" y="68" class="font-sans slide-body">I think a lot about building something real that people actually use — something</text>
-    <text x="190" y="88" class="font-sans slide-body">that starts small, slowly gets better, and grows around people who love building too.</text>
-    <g transform="translate(190, 102)">
-      <rect x="0" y="0" width="194" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="12" y="15" class="font-mono pill-text">Make Something People Want</text>
-      <rect x="204" y="0" width="112" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="216" y="15" class="font-mono pill-text">Y Combinator</text>
-      <rect x="326" y="0" width="116" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="338" y="15" class="font-mono pill-text">Indie Hackers</text>
-    </g>
-  </g>
-
-  <!-- SLIDE 3: Professional sidequest starter -->
-  <g class="slide s3" transform="translate(46, 76)">
-    <rect x="0" y="4" width="160" height="118" rx="12" fill="#f5f5f1" stroke="#e2e2dc" stroke-width="1.2"/>
-    <g transform="translate(32, 26)">
-      <rect x="0" y="0" width="96" height="68" rx="8" fill="#141412"/>
-      <text x="12" y="24" class="font-mono" font-size="11" fill="#81c784">$ git init quest</text>
-      <text x="12" y="42" class="font-mono" font-size="11" fill="#cfe2f3">&gt; shipping v0.1...</text>
-      <rect x="12" y="50" width="42" height="6" rx="3" fill="#ffd966"/>
-    </g>
-    <text x="190" y="18" class="font-mono kicker">03 / 07 · PROTOTYPING</text>
-    <text x="190" y="44" class="font-sans slide-title">professional sidequest starter</text>
-    <text x="190" y="68" class="font-sans slide-body">I tend to start things on the side without making it a big deal. I don't wait for</text>
-    <text x="190" y="88" class="font-sans slide-body">things to be perfect — I just start, test the idea, and see what turns into more.</text>
-    <g transform="translate(190, 102)">
-      <rect x="0" y="0" width="120" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="12" y="15" class="font-mono pill-text">YC MVP Guide</text>
-      <rect x="130" y="0" width="124" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="142" y="15" class="font-mono pill-text">Build in Public</text>
-      <rect x="264" y="0" width="114" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="276" y="15" class="font-mono pill-text">Vercel Guides</text>
-    </g>
-  </g>
-
-  <!-- SLIDE 4: Science advances / newsletters -->
-  <g class="slide s4" transform="translate(46, 76)">
-    <rect x="0" y="4" width="160" height="118" rx="12" fill="#f5f5f1" stroke="#e2e2dc" stroke-width="1.2"/>
-    <g transform="translate(48, 16)">
-      <rect x="0" y="0" width="64" height="86" rx="7" fill="#eeeadd" stroke="#141412" stroke-width="1.5"/>
-      <rect x="6" y="6" width="52" height="74" rx="4" fill="#3b5249"/>
-      <text x="11" y="18" class="font-mono" font-size="6.5" font-weight="700" fill="#ffffff">FIELD NOTE</text>
-      <circle cx="32" cy="43" r="15" fill="#6b9080"/>
-      <path d="M23 43 C27 32, 37 54, 41 43" fill="none" stroke="#eeeadd" stroke-width="1.7" stroke-linecap="round"/>
-      <line x1="12" y1="65" x2="48" y2="65" stroke="#c2c5aa" stroke-width="1.7" stroke-linecap="round"/>
-      <line x1="12" y1="71" x2="36" y2="71" stroke="#c2c5aa" stroke-width="1.7" stroke-linecap="round"/>
-    </g>
-    <text x="190" y="18" class="font-mono kicker">04 / 07 · SCIENCE &amp; BIOTECH</text>
-    <text x="190" y="44" class="font-sans slide-title">science advances &amp; newsletters</text>
-    <text x="190" y="68" class="font-sans slide-body">I like keeping up with science and healthcare progress through short dispatches —</text>
-    <text x="190" y="88" class="font-sans slide-body">new treatments, biotech breakthroughs, and seeing how fast things move over time.</text>
-    <g transform="translate(190, 102)">
-      <rect x="0" y="0" width="130" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="12" y="15" class="font-mono pill-text">Nature Briefing</text>
-      <rect x="140" y="0" width="102" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="152" y="15" class="font-mono pill-text">STAT News</text>
-      <rect x="252" y="0" width="170" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="264" y="15" class="font-mono pill-text">MIT Tech Review Biomed</text>
-    </g>
-  </g>
-
-  <!-- SLIDE 5: Getting lost on Reddit & HN -->
-  <g class="slide s5" transform="translate(46, 76)">
-    <rect x="0" y="4" width="160" height="118" rx="12" fill="#f5f5f1" stroke="#e2e2dc" stroke-width="1.2"/>
-    <g transform="translate(32, 26)">
-      <rect x="0" y="0" width="66" height="44" rx="8" fill="#fce5cd" stroke="#141412" stroke-width="1.5"/>
-      <line x1="12" y1="15" x2="54" y2="15" stroke="#141412" stroke-width="1.5" stroke-linecap="round"/>
-      <line x1="12" y1="27" x2="40" y2="27" stroke="#141412" stroke-width="1.5" stroke-linecap="round"/>
-      <rect x="30" y="26" width="66" height="44" rx="8" fill="#cfe2f3" stroke="#141412" stroke-width="1.5"/>
-      <line x1="42" y1="41" x2="84" y2="41" stroke="#141412" stroke-width="1.5" stroke-linecap="round"/>
-      <line x1="42" y1="53" x2="70" y2="53" stroke="#141412" stroke-width="1.5" stroke-linecap="round"/>
-    </g>
-    <text x="190" y="18" class="font-mono kicker">05 / 07 · INTERNET RABBIT HOLES</text>
-    <text x="190" y="44" class="font-sans slide-title">getting lost on reddit &amp; forums</text>
-    <text x="190" y="68" class="font-sans slide-body">There is a lot you can learn from people just sharing what they have actually done —</text>
-    <text x="190" y="88" class="font-sans slide-body">real experiences and candid postmortems, not the polished versions.</text>
-    <g transform="translate(190, 102)">
-      <rect x="0" y="0" width="128" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="12" y="15" class="font-mono pill-text">r/Entrepreneur</text>
-      <rect x="138" y="0" width="112" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="150" y="15" class="font-mono pill-text">Hacker News</text>
-      <rect x="260" y="0" width="76" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="272" y="15" class="font-mono pill-text">Are.na</text>
-    </g>
-  </g>
-
-  <!-- SLIDE 6: Tech news and updates -->
-  <g class="slide s6" transform="translate(46, 76)">
-    <rect x="0" y="4" width="160" height="118" rx="12" fill="#f5f5f1" stroke="#e2e2dc" stroke-width="1.2"/>
-    <g transform="translate(36, 26)">
-      <circle cx="44" cy="36" r="30" fill="#ffffff" stroke="#141412" stroke-width="1.5"/>
-      <circle cx="44" cy="36" r="18" fill="none" stroke="#141412" stroke-width="1.2" stroke-dasharray="3,3"/>
-      <line x1="44" y1="36" x2="64" y2="18" stroke="#0d7a5f" stroke-width="2" stroke-linecap="round"/>
-      <circle cx="64" cy="18" r="3.5" fill="#e57373" stroke="#141412" stroke-width="1.2"/>
-      <circle cx="44" cy="36" r="3" fill="#141412"/>
-    </g>
-    <text x="190" y="18" class="font-mono kicker">06 / 07 · RADAR</text>
-    <text x="190" y="44" class="font-sans slide-title">tech news and launches i track</text>
-    <text x="190" y="68" class="font-sans slide-body">I check a few places to see what's happening — product launches, funding, and new</text>
-    <text x="190" y="88" class="font-sans slide-body">tools. Less about knowing everything and more about staying loosely aware.</text>
-    <g transform="translate(190, 102)">
-      <rect x="0" y="0" width="106" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="12" y="15" class="font-mono pill-text">TechCrunch</text>
-      <rect x="116" y="0" width="96" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="128" y="15" class="font-mono pill-text">The Verge</text>
-      <rect x="222" y="0" width="114" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="234" y="15" class="font-mono pill-text">Product Hunt</text>
-    </g>
-  </g>
-
-  <!-- SLIDE 7: Sports with friends -->
-  <g class="slide s7" transform="translate(46, 76)">
-    <rect x="0" y="4" width="160" height="118" rx="12" fill="#f5f5f1" stroke="#e2e2dc" stroke-width="1.2"/>
-    <g transform="translate(31, 34)">
-      <rect x="0" y="0" width="98" height="54" rx="6" fill="#ffffff" stroke="#141412" stroke-width="1.5"/>
-      <line x1="49" y1="0" x2="49" y2="54" stroke="#141412" stroke-width="1.3" stroke-dasharray="3,3"/>
-      <circle cx="26" cy="27" r="11" fill="#cfe2f3" stroke="#141412" stroke-width="1.4"/>
-      <path d="M19 20 Q26 27 33 20 M19 34 Q26 27 33 34" fill="none" stroke="#141412" stroke-width="1.1"/>
-      <polygon points="68,35 80,17 86,23" fill="#ffd966" stroke="#141412" stroke-width="1.3" stroke-linejoin="round"/>
-      <circle cx="66" cy="37" r="3.5" fill="#e57373" stroke="#141412" stroke-width="1.2"/>
-    </g>
-    <text x="190" y="18" class="font-mono kicker">07 / 07 · OFF THE SCREEN</text>
-    <text x="190" y="44" class="font-sans slide-title">badminton &amp; volleyball with friends</text>
-    <text x="190" y="68" class="font-sans slide-body">I really enjoy playing badminton and volleyball whenever I'm away from my desk —</text>
-    <text x="190" y="88" class="font-sans slide-body">it's all about playing with friends and having something fun and fast-paced to do.</text>
-    <g transform="translate(190, 102)">
-      <rect x="0" y="0" width="132" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="12" y="15" class="font-mono pill-text">Badminton Court</text>
-      <rect x="142" y="0" width="126" height="22" rx="11" fill="#eaf5f1" stroke="#b7dfd2" stroke-width="1"/>
-      <text x="154" y="15" class="font-mono pill-text">Volleyball Net</text>
-    </g>
-  </g>
-
-  <!-- Carousel Dots Footer -->
-  <g transform="translate(415, 238)">
-    <circle class="dot d1" cx="0" cy="0" r="3.5"/>
-    <circle class="dot d2" cx="16" cy="0" r="3.5"/>
-    <circle class="dot d3" cx="32" cy="0" r="3.5"/>
-    <circle class="dot d4" cx="48" cy="0" r="3.5"/>
-    <circle class="dot d5" cx="64" cy="0" r="3.5"/>
-    <circle class="dot d6" cx="80" cy="0" r="3.5"/>
-    <circle class="dot d7" cx="96" cy="0" r="3.5"/>
-  </g>
+  <!-- Footer (.about-footer): horizontal 24x2px line dots + showing 6 thoughts -->
+  <rect x="0" y="292" width="24" height="2" class="dot d1"/>
+  <rect x="32" y="292" width="24" height="2" class="dot d2"/>
+  <rect x="64" y="292" width="24" height="2" class="dot d3"/>
+  <rect x="96" y="292" width="24" height="2" class="dot d4"/>
+  <rect x="128" y="292" width="24" height="2" class="dot d5"/>
+  <rect x="160" y="292" width="24" height="2" class="dot d6"/>
+  <text x="880" y="296" text-anchor="end" class="results-copy">showing 6 thoughts</text>
 </svg>

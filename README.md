@@ -32,7 +32,7 @@ public class Lakshman {
 
 <p align="center">
   <a href="https://lakshman-codes.github.io/#about">
-    <img src="assets/away-from-keyboard.svg" width="100%" alt="Away from the keyboard — animated carousel of quick thoughts from lakshman-codes.github.io" />
+    <img src="assets/away-from-keyboard.svg" width="100%" alt="// about · quick thoughts carousel from lakshman-codes.github.io" />
   </a>
 </p>
 
@@ -97,42 +97,9 @@ Resume-alignment platform that tailors a master resume to each job posting.<br>
 | **UWExplorer** | Electron and React campus dashboard with D2L calendar sync, course to-dos and quick links. | Electron, React, Vite | [Repo](https://github.com/LaxExe/UWExplorer) |
 | **SimpleDo** | Minimalist task, habit and calendar manager with realtime sync and an agent API. | React, Firebase, PWA | [Repo](https://github.com/LaxExe/SimpleDo) · [Live app](https://laxexe.github.io/SimpleDo/) |
 
-<details>
-<summary><b>Preview SimpleDo live landing page</b></summary>
-<br>
-
-<a href="https://laxexe.github.io/SimpleDo/"><img src="assets/simpledo.png" alt="SimpleDo preview" /></a>
-
-</details>
-
 ---
 
 ## Experience
-
-<p align="center">
-  <a href="https://lakshman-codes.github.io/#experience">
-    <img src="assets/experience-showcase.svg" width="100%" alt="Work & Engineering Archive — WATonomous, Ally Solutions, SLSS EV Car Team, ServiceDeck, Hackathon 1st Place, TerryFox Medical Centre, Kumon, BSS" />
-  </a>
-</p>
-
-<div align="center">
-  <sub>
-    <b>Organizations:</b>&nbsp;
-    <a href="https://www.watonomous.ca">WATonomous</a> ·
-    <a href="https://www.allysolutions.ai">Ally Solutions</a> ·
-    SLSS EV Car Team ·
-    <a href="https://servicedeck.io">ServiceDeck</a> ·
-    TerryFox Medical Centre ·
-    Kumon ·
-    BSS
-  </sub>
-</div>
-
-<br>
-
-<details>
-<summary><b>View full role breakdown &amp; technical highlights</b></summary>
-<br>
 
 <table>
 <tr>
@@ -225,8 +192,6 @@ Managed the student records database and scheduling platform alongside deliverin
 </tr>
 </table>
 
-</details>
-
 ---
 
 ## Languages and Tech Stack
@@ -303,7 +268,7 @@ Managed the student records database and scheduling platform alongside deliverin
 
 <p align="center">
   <a href="https://lakshman-codes.github.io/#contact">
-    <img src="assets/lets-talk.svg" width="100%" alt="Let's talk — Website, LinkedIn, GitHub, X / Twitter" />
+    <img src="assets/lets-talk.svg" width="100%" alt="// contact — let's talk" />
   </a>
 </p>
 
