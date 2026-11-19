@@ -69,7 +69,7 @@ A backend API that moves money between accounts without losing track of balances
 <a href="https://highlights-kappa.vercel.app/home"><img src="assets/highlights.png" alt="Highlights preview" /></a>
 
 **Highlights**<br>
-A daily journal app where you write down the best parts of your day. It tags your entries, checks off your daily habits, and lets you share updates with friends.<br>
+A social media app with an algorithm built to make you more productive — log your daily wins, keep streaks alive with friends, and track your habits instead of doomscrolling.<br>
 <sub>Next.js · Prisma · Supabase · Gemini</sub><br>
 [Repo](https://github.com/LaxExe/HighlightsApp) · [Live app](https://highlights-kappa.vercel.app/home)
 
@@ -79,7 +79,7 @@ A daily journal app where you write down the best parts of your day. It tags you
 <a href="https://hireme-henna.vercel.app/"><img src="assets/hireme.png" alt="HireMe preview" /></a>
 
 **HireMe**<br>
-A tool that keeps one master copy of your resume and tweaks it to fit different job postings on a clean one-page PDF.<br>
+An agent tool that lets your AI agents tailor your master resume to a job posting and work through the entire job application workflow end to end.<br>
 <sub>Next.js · Firebase · LaTeX</sub><br>
 [Repo](https://github.com/LaxExe/HireMe) · [Live app](https://hireme-henna.vercel.app/)
 
