@@ -151,12 +151,12 @@ Built a Pandas + LLM extraction pipeline cleaning 20k+ customer Excel records, a
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/logos/hackathon.svg" width="38" height="38" align="left" alt="Hackathon 1st Place" />
+<img src="assets/logos/peel-skills.png" width="38" height="38" align="left" alt="Peel Skills Hackathon" />
 
-**High School Coding Hackathon** · `1ST PLACE`<br>
-<sub><b>Hackathon Competitor</b> · May 2025</sub>
+**Peel Skills Hackathon** · `1ST PLACE`<br>
+<sub><b>Hackathon Competitor (1st out of 40+ competitors)</b> · May 2025</sub>
 
-Won 1st place designing and shipping a complete Java desktop environmental strategy game from scratch under a tight competition clock.
+Won 1st place out of 40+ competitors by designing and shipping a complete Java desktop environmental strategy game from scratch under a tight competition clock.
 
 </td>
 <td width="50%" valign="top">
@@ -254,7 +254,7 @@ Managed the student records database and scheduling platform alongside deliverin
 - My ledger API will never lose a cent. It has row locking and idempotency keys.
 - I built a Chrome extension that you can just talk to. Yes, I talk to my browser.
 - I made a reminder system, PingMe, that literally calls you when you forget things.
-- I won 1st place at a high school hackathon.
+- I won 1st place out of 40+ competitors at the Peel Skills Hackathon.
 
 </details>
 
