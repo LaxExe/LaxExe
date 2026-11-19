@@ -5,9 +5,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=First-year+Waterloo+Computer+Engineering;Autonomy+engineer+on+WATonomous;Building+on-device+AI+tools;Writing+backend+systems+that+don't+lose+money;Looking+to+build+more+experience;Let's+build+something+together)](https://lakshman-codes.github.io)
 
 [![Website](https://img.shields.io/badge/Website-lakshman--codes.github.io-36BCF7?style=for-the-badge&logo=githubpages&logoColor=white)](https://lakshman-codes.github.io)
-[![Hire Me](https://img.shields.io/badge/Hire_Me-hireme--henna.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://hireme-henna.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-lakshmanr08-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lakshmanr08/)
-![Profile views](https://komarev.com/ghpvc/?username=LaxExe&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS)
 
 </div>
 
@@ -36,40 +34,89 @@ public class Lakshman {
 
 ## Featured Projects
 
-| Project | What it is | Links |
-|---|---|---|
-| **Inline** | Ultra-lightweight system-wide autocorrect and predictive ghost text engine. 100% on-device, zero telemetry. | [Repo](https://github.com/LaxExe/Inline-MacOS-Win32Build) · [Site](https://laxexe.github.io/Inline-MacOS-Win32Build/) |
-| **Ledger Service** | Double-entry ledger API with row locking and idempotency. Java 21, Spring Boot 3.3, PostgreSQL 16. | [Repo](https://github.com/LaxExe/ledger-service) · [Site](https://laxexe.github.io/ledger-service/) |
-| **Highlights** | AI-powered social platform that scores your day, tags your highlights and tracks streaks. | [Repo](https://github.com/LaxExe/HighlightsApp) · [Live app](https://highlights-kappa.vercel.app/home) |
-| **HireMe** | Recruitment and resume-alignment platform that tailors a master resume to each job posting. | [Repo](https://github.com/LaxExe/HireMe) · [Live app](https://hireme-henna.vercel.app/) |
-| **Voice Browser Control** | Chrome extension for hands-free browsing, routing each command to the cheapest reliable action. | [Repo](https://github.com/LaxExe/VoiceBasedAgenticBrowserAutomationTool) |
-| **UWExplorer** | Electron and React campus dashboard for Waterloo students with D2L calendar sync. | [Repo](https://github.com/LaxExe/UWExplorer) |
-| **SimpleDo** | Minimalist task, habit and calendar manager with realtime sync and an agent API. | [Repo](https://github.com/LaxExe/SimpleDo) · [Live app](https://laxexe.github.io/SimpleDo/) |
+Click any preview to open the live project.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://laxexe.github.io/Inline-MacOS-Win32Build/"><img src="assets/inline.png" alt="Inline preview" /></a>
+
+**Inline**<br>
+System-wide autocorrect and predictive ghost text. 100% on-device, zero telemetry.<br>
+<sub>C++20 · macOS · Rust</sub><br>
+[Repo](https://github.com/LaxExe/Inline-MacOS-Win32Build) · [Try the live demo](https://laxexe.github.io/Inline-MacOS-Win32Build/)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://laxexe.github.io/ledger-service/"><img src="assets/ledger.png" alt="Ledger Service preview" /></a>
+
+**Ledger Service**<br>
+Double-entry ledger API with row locking and idempotency that survives concurrent and retried requests.<br>
+<sub>Java 21 · Spring Boot 3.3 · PostgreSQL 16</sub><br>
+[Repo](https://github.com/LaxExe/ledger-service) · [Interactive walkthrough](https://laxexe.github.io/ledger-service/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://highlights-kappa.vercel.app/home"><img src="assets/highlights.png" alt="Highlights preview" /></a>
+
+**Highlights**<br>
+AI-powered social app that scores your day, tags your highlights and tracks streaks.<br>
+<sub>Next.js · Prisma · Supabase · Gemini</sub><br>
+[Repo](https://github.com/LaxExe/HighlightsApp) · [Live app](https://highlights-kappa.vercel.app/home)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://hireme-henna.vercel.app/"><img src="assets/hireme.png" alt="HireMe preview" /></a>
+
+**HireMe**<br>
+Resume-alignment platform that tailors a master resume to each job posting.<br>
+<sub>Next.js · Firebase · LaTeX</sub><br>
+[Repo](https://github.com/LaxExe/HireMe) · [Live app](https://hireme-henna.vercel.app/)
+
+</td>
+</tr>
+</table>
+
+### More Projects
+
+| Project | Description | Stack | Links |
+|:--|:--|:--|:--|
+| **Voice Browser Control** | Chrome extension for hands-free browsing. An LLM routes each voice command to the cheapest reliable action, with a parallel mode for background tabs. | TypeScript, Flask, Supabase | [Repo](https://github.com/LaxExe/VoiceBasedAgenticBrowserAutomationTool) |
+| **UWExplorer** | Electron and React campus dashboard with D2L calendar sync, course to-dos and quick links. | Electron, React, Vite | [Repo](https://github.com/LaxExe/UWExplorer) |
+| **SimpleDo** | Minimalist task, habit and calendar manager with realtime sync and an agent API. | React, Firebase, PWA | [Repo](https://github.com/LaxExe/SimpleDo) · [Live app](https://laxexe.github.io/SimpleDo/) |
 
 ---
 
 ## Experience
 
-| Role | Where | When |
-|---|---|---|
-| Autonomy Engineer, Perception and Navigation | **WATonomous**, Waterloo, ON | Oct 2026 – Present |
-| Software Engineering Intern | **Ally Solutions**, Remote (Arvada, CO) | Jun 2026 – Sep 2026 |
-| Electrical and Software Co-lead | **SLSS EV Car Team**, Mississauga, ON | Dec 2025 – May 2026 |
-| Backend Developer | **ServiceDeck**, Toronto, ON | Jun 2025 – Sep 2025 |
-| Hackathon Competitor, **1st Place** | **Peel Skills HS Hackathon**, Peel Region, ON | May 2025 |
-| Swim Instructor and Platform Coordinator | **BSS**, Mississauga, ON | 2025 – Present |
-| Full Stack and IT Intern | **TerryFox Medical Centre**, Mississauga, ON | Jan 2025 – Mar 2025 |
-| Advanced Math Tutor and Centre Assistant | **Kumon**, Mississauga, ON | Dec 2024 – Aug 2025 |
+| | Role | Organization | Dates |
+|:--|:--|:--|:--|
+| **Now** | Autonomy Engineer, Perception and Navigation | **WATonomous** | Oct 2026 – Present |
+| | Swim Instructor and Platform Coordinator | **BSS** | 2025 – Present |
+| **Past** | Software Engineering Intern | **Ally Solutions** | Jun 2026 – Sep 2026 |
+| | Electrical and Software Co-lead | **SLSS EV Car Team** | Dec 2025 – May 2026 |
+| | Backend Developer | **ServiceDeck** | Jun 2025 – Sep 2025 |
+| | Hackathon Competitor, **1st Place** | **High School Hackathon** | May 2025 |
+| | Full Stack and IT Intern | **TerryFox Medical Centre** | Jan 2025 – Mar 2025 |
+| | Advanced Math Tutor | **Kumon** | Dec 2024 – Aug 2025 |
 
 <details>
 <summary><b>Highlights from the work</b></summary>
 <br>
 
-- **WATonomous**: C++ and ROS 2 navigation stack with 2D costmaps, an A* planner and Pure Pursuit path tracking, tested in Dockerized Gazebo and debugged in Foxglove Studio.
-- **Ally Solutions**: Python dialing agents and a rule engine that cut manual coordination by over 80% for 2 clinics and hit 90%+ eligibility accuracy on test data, with REST APIs and PostgreSQL schemas shared across 3 internal services.
-- **SLSS EV Car Team**: Raspberry Pi telemetry dashboard with C++ sensor drivers, plus OpenCV cone and flag detection for a competition electric vehicle.
-- **ServiceDeck**: Pandas and LLM pipeline that cleaned 20k+ customer records, and a Twilio-based conversational agent for lead generation deployed on Firebase Cloud Functions.
-- **TerryFox Medical Centre**: AI patient triage web app, OSCAR EMR rollout for 6 physicians and a Raspberry Pi HID device that automated reception workflows.
+| Where | What I built |
+|:--|:--|
+| **WATonomous** | C++ and ROS 2 navigation stack with 2D costmaps, an A* planner and Pure Pursuit path tracking, tested in Dockerized Gazebo and debugged in Foxglove Studio. |
+| **Ally Solutions** | Python dialing agents and a rule engine that cut manual coordination by over 80% for 2 clinics and reached 90%+ eligibility accuracy on test data. REST APIs and PostgreSQL schemas shared across 3 internal services. |
+| **SLSS EV Car Team** | Raspberry Pi telemetry dashboard with C++ sensor drivers, plus OpenCV cone and flag detection for a competition electric vehicle. |
+| **ServiceDeck** | Pandas and LLM pipeline that cleaned 20k+ customer records, and a Twilio-based conversational agent deployed on Firebase Cloud Functions. |
+| **TerryFox Medical Centre** | AI patient triage web app, EMR rollout across the clinic and a Raspberry Pi device that automated reception workflows. |
 
 </details>
 
@@ -133,8 +180,7 @@ public class Lakshman {
 - My ledger API will never lose a cent. It has row locking and idempotency keys.
 - I built a Chrome extension that you can just talk to. Yes, I talk to my browser.
 - I made a reminder system, PingMe, that literally calls you when you forget things.
-- I won 1st place at the Peel Skills HS Hackathon.
-- I'm a certified National Lifeguard and swim instructor, so I can debug code and rescue you.
+- I won 1st place at a high school hackathon.
 
 </details>
 
@@ -153,8 +199,6 @@ public class Lakshman {
 ### Let's build something
 
 [![Website](https://img.shields.io/badge/Visit_my_website-36BCF7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lakshman-codes.github.io)
-[![Hire Me](https://img.shields.io/badge/Hire_Me-FF4081?style=for-the-badge&logo=vercel&logoColor=white)](https://hireme-henna.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-lakshman.r.2008@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lakshman.r.2008@gmail.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="" />
 
