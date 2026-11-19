@@ -1,24 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 264" width="880" height="264">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 312" width="880" height="312">
   <style>
     .sec-label { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; letter-spacing: 0.14em; fill: #656d76; }
     .heading { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 26px; font-weight: 600; letter-spacing: -0.03em; fill: #1f2328; }
-    .sub { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11.5px; fill: #656d76; }
     .ll-num { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; letter-spacing: 0.1em; fill: #656d76; }
     .ll-name { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.1em; fill: #1f2328; }
     .ll-handle { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; letter-spacing: 0.06em; fill: #656d76; }
     .ll-arrow { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 13px; fill: #1f2328; }
   </style>
 
-  <rect x="0" y="0" width="880" height="264" fill="#ffffff"/>
+  <rect x="0" y="0" width="880" height="312" fill="#ffffff"/>
 
   <text x="0" y="16" class="sec-label">// contact me for — building something cool, collaborating, or just saying hi.</text>
   <text x="0" y="46" class="heading">let's talk.</text>
 
-  <!-- Row 01: website -->
+  <!-- Row 01: email -->
   <line x1="0" y1="68" x2="880" y2="68" stroke="#1f2328" stroke-width="1"/>
   <text x="4" y="96" class="ll-num">01</text>
-  <text x="46" y="96" class="ll-name">website</text>
-  <text x="180" y="96" class="ll-handle">lakshman-codes.github.io</text>
+  <text x="46" y="96" class="ll-name">email</text>
+  <text x="180" y="96" class="ll-handle">lakshman.r.2008@gmail.com</text>
   <text x="864" y="96" class="ll-arrow">&#8594;</text>
 
   <!-- Row 02: linkedin -->
@@ -41,5 +40,12 @@
   <text x="46" y="240" class="ll-name">x / twitter</text>
   <text x="180" y="240" class="ll-handle">@Lakshman_r08</text>
   <text x="864" y="240" class="ll-arrow">&#8594;</text>
-  <line x1="0" y1="260" x2="880" y2="260" stroke="#1f2328" stroke-width="1"/>
+
+  <!-- Row 05: website -->
+  <line x1="0" y1="260" x2="880" y2="260" stroke="#d0d7de" stroke-width="1"/>
+  <text x="4" y="288" class="ll-num">05</text>
+  <text x="46" y="288" class="ll-name">website</text>
+  <text x="180" y="288" class="ll-handle">lakshman-codes.github.io</text>
+  <text x="864" y="288" class="ll-arrow">&#8594;</text>
+  <line x1="0" y1="308" x2="880" y2="308" stroke="#1f2328" stroke-width="1"/>
 </svg>

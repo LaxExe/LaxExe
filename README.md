@@ -2,10 +2,12 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hey%2C%20I'm%20Lakshman&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineering%20%40%20Waterloo&descAlignY=58&descSize=20" alt="Hey, I'm Lakshman" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=First-year+Waterloo+Computer+Engineering;Autonomy+engineer+on+WATonomous;Building+on-device+AI+tools;Writing+backend+systems+that+don't+lose+money;Looking+to+build+more+experience;Let's+build+something+together)](https://lakshman-codes.github.io)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=%3E+engineering+at+UWaterloo.;%3E+professional+side+quest+starter.;%3E+expert+google+searcher.;%3E+overthinking+since+2007.;%3E+fascinated+by+systems+that+scale;%3E+software+engineer+(aspiring+._.+\).)](https://lakshman-codes.github.io)
 
 [![Website](https://img.shields.io/badge/Website-lakshman--codes.github.io-36BCF7?style=for-the-badge&logo=githubpages&logoColor=white)](https://lakshman-codes.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-lakshmanr08-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lakshmanr08/)
+[![X / Twitter](https://img.shields.io/badge/X-Lakshman__r08-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Lakshman_r08)
+[![Email](https://img.shields.io/badge/Email-lakshman.r.2008%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lakshman.r.2008@gmail.com)
 
 </div>
 
@@ -272,7 +274,7 @@ Managed the student records database and scheduling platform alongside deliverin
 
 <div align="center">
 
-[**Website**](https://lakshman-codes.github.io) · [**LinkedIn**](https://linkedin.com/in/lakshmanr08/) · [**GitHub**](https://github.com/LaxExe) · [**X / Twitter**](https://x.com/Lakshman_r08)
+[**Website**](https://lakshman-codes.github.io) · [**Email**](mailto:lakshman.r.2008@gmail.com) · [**LinkedIn**](https://linkedin.com/in/lakshmanr08/) · [**GitHub**](https://github.com/LaxExe) · [**X / Twitter**](https://x.com/Lakshman_r08)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="" />
 
